@@ -8,6 +8,9 @@
 {% endfor %}
 
 {% if paginate.pages > 1 %}
+  {% if paginate.previous.is_link %}
+    <a href={{ paginate.previous.url }}>{{ paginate.previous.title }}</a>
+  {% endif %}
   {{ paginate.current_page}}
 {% endif %}
 
