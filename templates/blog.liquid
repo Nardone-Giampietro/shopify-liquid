@@ -11,7 +11,7 @@
   {% if paginate.previous.is_link %}
     <a href={{ paginate.previous.url }}>{{ paginate.previous.title }}</a>
   {% endif %}
-  {% for n in (1.. paginate.pages ) %}
+  {% for n in (1..paginate.pages) %}
     1
     {% endfor %}
   {% if paginate.next.is_link %}
