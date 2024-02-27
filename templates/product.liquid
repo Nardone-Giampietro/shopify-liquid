@@ -18,5 +18,5 @@
 </div>
 <div>
   {{ product.title | upcase | remove: ' # 1'}}
-  <p>{{ product.price  | money }}</p>
+  <p>{{ product.price  | money_with_currency }}</p>
 </div>
