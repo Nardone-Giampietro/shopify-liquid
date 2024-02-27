@@ -1,1 +1,4 @@
 <img src={{ product | image_url: width: 100 }}> </img>
+{% if product.title == all_products["product-1"].title %}
+  <p>This is the most important product</p>
+{% endif %}
