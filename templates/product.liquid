@@ -18,6 +18,6 @@
   
 </div>
 <div>
-  {{ product.title | upcase | remove: ' # 1'}}
+  {{ product_title | upcase | remove: ' # 1'}}
   <p>{{ product.price  | money_with_currency | replace: ',', '.'}}</p>
 </div>
