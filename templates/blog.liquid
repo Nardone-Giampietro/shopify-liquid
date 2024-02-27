@@ -12,6 +12,9 @@
     <a href={{ paginate.previous.url }}>{{ paginate.previous.title }}</a>
   {% endif %}
   {{ paginate.current_page}}
+  {% if paginate.next.is_link %}
+    <a href={{ paginate.next.url }}>{{ paginate.next.title }}</a>
+  {% endif %}
 {% endif %}
 
 {% endpaginate %}
