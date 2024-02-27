@@ -12,5 +12,5 @@
 }
 
 .pagination a:hover{
-  transform: translate(5px, 0px);
+  translate: 5px, 0px;
 }
