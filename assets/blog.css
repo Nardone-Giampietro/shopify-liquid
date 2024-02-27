@@ -11,6 +11,6 @@
   border-radius: 5px;
 }
 
-.pagination a :hover{
-  transform: translate(5px, 0px)
+.pagination a:hover{
+  transform: translate(5px, 0px);
 }
