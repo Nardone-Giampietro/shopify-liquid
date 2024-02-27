@@ -18,7 +18,7 @@
   <main role="main">
     {{ content_for_layout }}
     <h2>This is my picture</h2>
-    <img src={{ "immagine.jpg" | asset_img_url: "large" }}>
+    <img src="{{ "immagine.jpg" | asset_img_url: "large" }}">
   </main>
 </body>
 </html>
