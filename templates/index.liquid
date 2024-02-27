@@ -5,7 +5,7 @@
       Elements of {{ coll.title }}:
       <ol>
         {% for prod in coll.products %}
-          <li>{{ prod.title }}</li>
+          <li>{{ prod.title }} price: {{ prod.price | money }}</li>
         {% endfor %}
       </ol>
     </li>
