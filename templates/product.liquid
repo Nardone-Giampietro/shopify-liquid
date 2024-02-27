@@ -9,6 +9,10 @@
 {% endif %}
 
   {% case product.title %}
-    {% endcase %}
+    {% when all_products["product-1"].title %}
+      {% if product.price >= 1000 %}
+        
+      {% endif %}
+  {% endcase %}
   
 </div>
