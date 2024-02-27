@@ -12,13 +12,10 @@
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   {{ content_for_header }} <!-- Header hook for plugins -->
-  <link rel="stylesheet" href={{ 'celeste.css' | asset_url }}>
 </head>
 <body>
   <main role="main">
     {{ content_for_layout }}
-    <h2>This is my picture</h2>
-    <img src="{{ "immagine.jpg" | asset_img_url: "large" }}">
   </main>
 </body>
 </html>
