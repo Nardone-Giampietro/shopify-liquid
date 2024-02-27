@@ -8,7 +8,7 @@
 {% endfor %}
 
 {% if paginate.pages > 1 %}
-  {{ paginate.previous}}
+  {{ paginate.previous.is_link}}
 {% endif %}
 
 {% endpaginate %}
