@@ -1,3 +1,7 @@
 /**
 * This CSS file is for styling the Celeste theme
 **/
+
+body {
+  background-color: gray;
+}
