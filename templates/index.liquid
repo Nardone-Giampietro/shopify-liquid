@@ -1,8 +1,8 @@
-<a>This is the list of all products:</a>
+<a>This is the list of all the Collections:</a>
 <ul>
   {% for coll in collections %}
     <li>
-      Elements of {{ coll.handle }}:
+      Elements of {{ coll.title }}:
       <ol>
         {% for prod in coll.products %}
           <li>{{ prod.title }}</li>
