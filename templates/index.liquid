@@ -1,4 +1,7 @@
 <a>This is the list of all products:</a>
 {% for coll in collections %}
   <p>{{ coll.handle }}</p>
+  {% for prod in coll.products %}
+    <p>{{ prod.title }}</p>
+  {% endfor %}
 {% endfor %}
