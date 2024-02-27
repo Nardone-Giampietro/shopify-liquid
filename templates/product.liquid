@@ -21,4 +21,6 @@
 <div>
   {{ product_title | upcase | remove: ' # 1'}}
   <p>{{ product.price  | money_with_currency | replace: ',', '.'}}</p>
+  {% if bool  %}
+    {% endif %}
 </div>
