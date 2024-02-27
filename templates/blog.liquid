@@ -13,7 +13,7 @@
   {% endif %}
   {% for n in (1..paginate.pages) %}
     1
-    {% endfor %}
+  {% endfor %}
   {% if paginate.next.is_link %}
     <a href={{ paginate.next.url }}>{{ paginate.next.title }}</a>
   {% endif %}
