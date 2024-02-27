@@ -1,6 +1,18 @@
 {
-  "current": "Default",
+  "current": {
+    "section": {
+      "hero-section": {
+        "type": "hero",
+        "settings": {
+        }
+      }
+    },
+    "contet_for_index": [
+      "hero-section"
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
