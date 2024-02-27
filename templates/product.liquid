@@ -1,5 +1,5 @@
 {% assign product_title = product.title %}
-{% assign bool = true %}
+{% assign is_available = true %}
 <div>
   <img src={{ product | image_url: width: 100 }}> </img>
 {% if product.title == all_products["product-1"].title %}
@@ -21,7 +21,7 @@
 <div>
   {{ product_title | upcase | remove: ' # 1'}}
   <p>{{ product.price  | money_with_currency | replace: ',', '.'}}</p>
-  {% if bool  %}
+  {% if is_available  %}
     <p>This item is available</p>
   {% endif %}
 </div>
