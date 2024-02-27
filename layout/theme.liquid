@@ -12,12 +12,11 @@
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   {{ content_for_header }} <!-- Header hook for plugins -->
+  <link rel="stylesheet" href=    {{ 'celeste.css' | asset_url }}>
 </head>
 <body>
   <main role="main">
     {{ content_for_layout }}
-
-    {{ 'celeste.css' | asset_url }}
     
   </main>
 </body>
