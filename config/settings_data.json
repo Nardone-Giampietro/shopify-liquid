@@ -2,6 +2,42 @@
   "current": {
     "contet_for_index": [
       "hero-section"
+    ],
+    "sections": {
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "faq_block_THNaWX": {
+            "type": "faq-block",
+            "settings": {
+              "question": "Are you stupid?",
+              "answare": "Yes"
+            }
+          },
+          "faq_block_QRckH7": {
+            "type": "faq-block",
+            "settings": {
+              "question": "Write the questions.",
+              "answare": "Write the answare."
+            }
+          }
+        },
+        "block_order": [
+          "faq_block_THNaWX",
+          "faq_block_QRckH7"
+        ],
+        "settings": {
+        }
+      },
+      "text-center": {
+        "type": "text-center",
+        "settings": {
+          "text_input": "Put your text here."
+        }
+      }
+    },
+    "content_for_index": [
+
     ]
   },
   "presets": {
