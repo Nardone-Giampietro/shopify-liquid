@@ -13,4 +13,5 @@
 
 .pagination a:hover{
   translate: 0px 12px;
+  background-color: lightgray;
 }
