@@ -1,4 +1,5 @@
 <dev>
+  <ul>
   {% for link in linklists["main-menu"].links %}
     {% if link.links != blank %}
       <a href="{{ link.url }}">{{ link.title }}</a>
@@ -9,4 +10,5 @@
       <a href="{{ link.url }}">{{ link.title }}</a>
     {% endif %}
   {% endfor %}
+  </ul>
 </dev>
