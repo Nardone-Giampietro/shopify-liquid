@@ -1,12 +1,5 @@
 {
   "current": {
-    "section": {
-      "hero-section": {
-        "type": "hero",
-        "settings": {
-        }
-      }
-    },
     "contet_for_index": [
       "hero-section"
     ]

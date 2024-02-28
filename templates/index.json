@@ -4,9 +4,16 @@
       "type": "template-index",
       "settings": {
       }
+    },
+    "text_center_7nLz7R": {
+      "type": "text-center",
+      "settings": {
+        "text_input": "This is another text"
+      }
     }
   },
   "order": [
-    "template-homepage"
+    "template-homepage",
+    "text_center_7nLz7R"
   ]
 }
