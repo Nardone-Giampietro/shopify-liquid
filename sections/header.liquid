@@ -1,5 +1,5 @@
 <dev>
-{% for link in linklists["main-menu"].links %}
-
-{% endfor %}
+  {% for link in linklists["main-menu"].links %}
+    <a href="{{ link.url }}">{{ link.title }}</a>
+  {% endfor %}
 </dev>
