@@ -14,9 +14,11 @@
   {{ content_for_header }} <!-- Header hook for plugins -->
 </head>
 <body>
+  <nav>
+    {% section "header" %}
+  </nav>
   <main role="main">
     {{ content_for_layout }}
-
   </main>
 </body>
 </html>
