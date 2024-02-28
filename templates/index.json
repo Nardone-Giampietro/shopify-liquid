@@ -10,17 +10,10 @@
       "settings": {
         "text_input": "This is another text"
       }
-    },
-    "text_center_UGzYKH": {
-      "type": "text-center",
-      "settings": {
-        "text_input": "This is a custom text."
-      }
     }
   },
   "order": [
     "template-homepage",
-    "text_center_7nLz7R",
-    "text_center_UGzYKH"
+    "text_center_7nLz7R"
   ]
 }
