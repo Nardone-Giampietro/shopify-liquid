@@ -1,6 +1,9 @@
 <dev>
   {% for link in linklists["main-menu"].links %}
     {% if link.links != blank %}
+      {% for child in link.links %}
+      {% endfor %}
+    {% else %}
       <a href="{{ link.url }}">{{ link.title }}</a>
     {% endif %}
   {% endfor %}
