@@ -9,6 +9,7 @@
   margin: 0px 4px;
   border: 1px solid black;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 .pagination a:hover{
