@@ -4,9 +4,13 @@
       <li>
         {% if link.links != blank %}
          <a href="{{ link.url }}">{{ link.title }}</a>
-          {% for child in link.links %}
-            <a href="{{ child.url }}">{{ child.title }}</a>
-          {% endfor %}
+          <ul>
+            <li>
+              {% for child in link.links %}
+                <a href="{{ child.url }}">{{ child.title }}</a>
+              {% endfor %}
+            </li>
+          </ul>
         {% else %}
           <a href="{{ link.url }}">{{ link.title }}</a>
         {% endif %}
