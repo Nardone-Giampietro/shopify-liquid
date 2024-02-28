@@ -1,16 +1,16 @@
 <dev>
   <ul>
     <li>
-    {% for link in linklists["main-menu"].links %}
-        {% if link.links != blank %}
-         <a href="{{ link.url }}">{{ link.title }}</a>
-          {% for child in link.links %}
-            <a href="{{ child.url }}">{{ child.title }}</a>
-          {% endfor %}
-        {% else %}
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        {% endif %}
-      {% endfor %}
+      {% for link in linklists["main-menu"].links %}
+          {% if link.links != blank %}
+           <a href="{{ link.url }}">{{ link.title }}</a>
+            {% for child in link.links %}
+              <a href="{{ child.url }}">{{ child.title }}</a>
+            {% endfor %}
+          {% else %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {% endif %}
+        {% endfor %}
       </li>
   </ul>
 </dev>
